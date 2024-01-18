@@ -19,7 +19,7 @@ const cardVariant={
 function Service() {
   return (
    <>
-   <div className="h-screen  ">
+   <div className="mb-12   ">
       <div className="flex justify-center p-5">
         <h1 className="text-white text-5xl font-semibold ">Our Services</h1>
       </div>

@@ -5,6 +5,7 @@ import web1Image from '/src/assets/images/web1.jpg';
 import web4Image from '/src/assets/images/web4.png';
 import About from "./About";
 import Service from "./Service";
+import Footer from "./Footer";
 const Home = () => {
   return (
     <>
@@ -56,6 +57,7 @@ const Home = () => {
         </div>
         <About/>
         <Service/>
+        <Footer/>
       
       </div>
      
