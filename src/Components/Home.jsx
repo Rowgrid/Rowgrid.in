@@ -4,6 +4,7 @@ import rowgridImage from '/src/assets/images/rowgrid.png';
 import web1Image from '/src/assets/images/web1.jpg';
 import web4Image from '/src/assets/images/web4.png';
 import About from "./About";
+import Service from "./Service";
 const Home = () => {
   return (
     <>
@@ -54,6 +55,7 @@ const Home = () => {
           <Brand />
         </div>
         <About/>
+        <Service/>
       
       </div>
      

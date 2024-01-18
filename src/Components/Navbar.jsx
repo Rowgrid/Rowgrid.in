@@ -49,7 +49,7 @@ const Navbar = () => {
             <Link to='/about' onClick={closeMenu} className="no-underline text-text">
               About
             </Link>
-            <Link onClick={closeMenu} className="no-underline text-text">
+            <Link to='service' onClick={closeMenu} className="no-underline text-text">
               Services
             </Link>
             <Link onClick={closeMenu} className="no-underline text-text">
