@@ -4,27 +4,29 @@ import '../App.css'
 function Contact() {
   return (
     <>
-    {/* <div>
-        <div className='bg'>
+    <div className=' md:flex md:justify-center md:items-center px-4'>
+        <div className='lg:w-[60%] bg-third md:w-[80%] md:h-full  '>
             <div>
-                <div className=' flex flex-col justify-center items-center '>
-                <h1 className='cl font-bold text-5xl'>Write Us</h1>
+                <div className=' flex flex-col justify-center items-center'>
+                <h1 className='cl font-bold text-6xl'>Write Us</h1>
                 <div className='w-32 h-1 bg-secondry'></div>
 
                 </div>
                 
                 <div className='flex flex-col space-y-4 m-6'>
-                    <input type="text" />
-                    <input type="text" />
-                    <input type="text" />
+                    <input className='h-10 in '  placeholder="Name" type="text" />
+                    <input className='h-10 in'  placeholder="Email" type="email" />
+                    <input className='h-10 in'  placeholder="Phone" type="phone" />
                 </div>
             </div>
-            <div>
-                <textarea name="" id="" cols="30" rows="10"></textarea>
-                <button>Submit</button>
+            <div className=' m-6'>
+                <textarea className=' my-4 h-32 in  w-[100%] ' placeholder='Message' name="" id="" ></textarea>
+                <button className='w-full h-10 bg-secondry mb-14 text-xl cl'>Submit</button>
             </div>
+           
+           
         </div>
-    </div> */}
+    </div>
     </>
   )
 }

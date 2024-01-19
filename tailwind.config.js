@@ -9,7 +9,8 @@ export default {
     },
     backgroundColor: {
       primary: "#00040F",
-      secondry:"#eab308"
+      secondry:"#eab308",
+      third:"#111827"
     },
     colors: {
       text: "#B4B4B4"
