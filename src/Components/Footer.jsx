@@ -11,7 +11,7 @@ const Footer = () => {
       <div className="flex-1 flex flex-col justify-start mr-10">
         <img
           src="src/assets/images/rowgrid2blc.png"
-          alt="hoobank"
+          alt=""
           className="w-[250px] h-[72px] mb-2 object-contain"
         />
         <p
