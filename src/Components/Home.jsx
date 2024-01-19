@@ -6,6 +6,8 @@ import web4Image from '/src/assets/images/web4.png';
 import About from "./About";
 import Service from "./Service";
 import Footer from "./Footer";
+import Contact from "./Contact";
+import Project from "./Project";
 const Home = () => {
   return (
     <>
@@ -57,7 +59,10 @@ const Home = () => {
         </div>
         <About/>
         <Service/>
+        <Project/>
+        <Contact/>
         <Footer/>
+       
       
       </div>
      

@@ -8,7 +8,8 @@ export default {
       signate: ["Signate Grotesk","sans-serif"],
     },
     backgroundColor: {
-      primary: "#00040F"
+      primary: "#00040F",
+      secondry:"#eab308"
     },
     colors: {
       text: "#B4B4B4"

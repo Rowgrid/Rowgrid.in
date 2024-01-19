@@ -27,7 +27,7 @@ const Navbar = () => {
             </div>
 
             <div className="flex items-center gap-5">
-              <p className="cursor-pointer text-sm tracking-wide font-semibold border-[0] border-b border-solid ">
+              <p  className="cursor-pointer text-sm tracking-wide font-semibold border-[0] border-b border-solid ">
                 LET'S TALK
               </p>
 
@@ -49,11 +49,14 @@ const Navbar = () => {
             <Link to='/about' onClick={closeMenu} className="no-underline text-text">
               About
             </Link>
-            <Link to='service' onClick={closeMenu} className="no-underline text-text">
+            <Link to='/service' onClick={closeMenu} className="no-underline text-text">
               Services
             </Link>
-            <Link onClick={closeMenu} className="no-underline text-text">
+            <Link to='/project' onClick={closeMenu} className="no-underline text-text">
               Projects
+            </Link>
+            <Link to='/contact' onClick={closeMenu} className="no-underline text-text">
+              Contact
             </Link>
           </div>
         )}
