@@ -5,6 +5,7 @@ import Service from "./Components/Service";
 import Project from "./Components/Project";
 import Contact from "./Components/Contact"
 import {Routes, Route} from "react-router-dom"
+import Footer from "./Components/Footer";
 
 
 const App = () => {
@@ -18,8 +19,9 @@ const App = () => {
           <Route path="service" element={<Service/>}/>
           <Route path="project" element={<Project/>}/>
           <Route path="contact" element={<Contact/>}/>
-        
+          <Route path="/" element={<Footer/>}/>
         </Route>
+         
       </Routes>
     </div>
     </>

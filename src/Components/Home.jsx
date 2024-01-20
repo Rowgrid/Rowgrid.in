@@ -60,7 +60,7 @@ const Home = () => {
         <About/>
         <Service/>
         <Project/>
-        <Footer/>
+  
        
       
       </div>

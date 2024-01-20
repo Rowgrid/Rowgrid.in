@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link, Outlet } from "react-router-dom";
 import logo from "/src/assets/images/logo.png";
+import Footer from "./Footer";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -61,6 +62,7 @@ const Navbar = () => {
           </div>
         )}
         <Outlet />
+        <Footer />
       </div>
     </>
   );

@@ -1,4 +1,5 @@
 import { footerLinks, socialMedia } from "../Links.js";
+import img from '..//assets/images/rowgrid2blc.png'
 
 const Footer = () => {
   return (
@@ -10,12 +11,12 @@ const Footer = () => {
     >
       <div className="flex-1 flex flex-col justify-start mr-10">
         <img
-          src="src/assets/images/rowgrid2blc.png"
+          src={img}
           alt=""
           className="w-[250px] h-[72px] mb-2 object-contain"
         />
         <p
-          className={`font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px] mt-4 max-w-[310px]`}
+          className={` cl font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px] mt-4 max-w-[310px]`}
         >
 
           A new way to make the payments easy, reliable and secure.
@@ -27,15 +28,16 @@ const Footer = () => {
             key={footerLink.key}
             className="flex flex-col  ss:my-0 my-4 min-w-[50px]"
           >
-            <h4 className="font-poppins font-medium text-[18px] leading-[27px] text-white">
+            <h4 className="font-poppins cl font-medium text-[18px] leading-[27px] text-white">
               {footerLink.title}
             </h4>
             <ul className="list-none mt-4 p-0">
               {footerLink.links.map((link) => (
                 <li
                   key={link.name}
-                  className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer mb-4 last:mb-0`}
+                  className={`font-poppins font-normal text-[16px] leading-[24px] cl hover:text-secondary cursor-pointer mb-4 last:mb-0`}
                 >
+                  <a className="no-underline cl" href={link.lin}>{link.nam}</a>
                   {link.name}
                 </li>
               ))}
@@ -57,7 +59,7 @@ const Footer = () => {
          </a> 
         ))}
       </div>
-      <p className="font-poppins pt-2 font-normal text-center text-[18px] leading-[27px] text-white">
+      <p className=" cl font-poppins pt-2 font-normal text-center text-[18px] leading-[27px] text-white">
         2021 RowGrid. All Rights Reserved.
       </p>
     </div>

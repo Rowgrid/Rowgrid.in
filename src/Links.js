@@ -5,20 +5,20 @@ export const footerLinks = [
     title: "Useful Links",
     links: [
       {
-        name: "HOME",
-        link: "/",
+        nam: "HOME",
+        lin: "/",
       },
       {
-        name: "ABOUT",
-        link: "/about",
+        nam: "ABOUT",
+        lin: "/about",
       },
       {
-        name: "SERVICE",
-        link: "/service",
+        nam: "SERVICE",
+        lin: "/service",
       },
       {
-        name: "PROJECT",
-        link: "/project",
+        nam: "PROJECT",
+        lin: "/project",
       },
       // {
       //   name: "Terms & Services",

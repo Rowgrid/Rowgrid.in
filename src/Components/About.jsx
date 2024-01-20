@@ -15,6 +15,8 @@ const About = () => {
                     <img className=' w-[100%] ' src={image} alt="" srcset="" />
                 </div>
             </div>
+
+           
           
             {/* https://image.freepik.com/free-photo/running-shoes-white-background_10541-635.jpg */}
         </>
