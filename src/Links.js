@@ -20,6 +20,10 @@ export const footerLinks = [
         nam: "PROJECT",
         lin: "/project",
       },
+      {
+        nam: "CONTACT",
+        lin: "/contact",
+      },
       // {
       //   name: "Terms & Services",
       //   link: "https://www.hoobank.com/terms-and-services/",
