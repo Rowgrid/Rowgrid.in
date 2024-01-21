@@ -9,7 +9,7 @@ function Contact() {
             <div>
                 <div className=' flex flex-col justify-center items-center'>
                 <h1 className='cl font-bold text-6xl'>Write Us</h1>
-                <div className='w-32 h-1 bg-secondry'></div>
+                <div className='w-32 h-1 bg-secondry rounded'></div>
 
                 </div>
                 

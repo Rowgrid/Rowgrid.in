@@ -60,9 +60,6 @@ const Home = () => {
         <About/>
         <Service/>
         <Project/>
-  
-       
-      
       </div>
      
     </>
