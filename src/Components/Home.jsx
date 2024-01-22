@@ -57,7 +57,7 @@ const Home = () => {
           </div>
        <div className="fixed bottom-[30px]  right-[30px]  cursor-pointer">
         <a href="https://wa.me/9645284458">
-          <img  src="https://clipart.info/images/ccovers/1499955335whatsapp-icon-logo-png.png" width={40} alt="" />
+          <img  src="https://1.bp.blogspot.com/-PM8_Rig8V0M/XxFkv-2f3hI/AAAAAAAACSU/vB1BqbuhFCMyJ8OGCVstFiMLFmavCLqrwCPcBGAYYCw/s1600/whatsapp-logo-1.png" width={40} alt="" />
          
         </a>
        

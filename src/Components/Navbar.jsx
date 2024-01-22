@@ -29,7 +29,7 @@ const Navbar = () => {
 
             <div className="flex items-center gap-5">
               <p  className="cursor-pointer text-sm tracking-wide font-semibold border-[0] border-b border-solid ">
-                LET'S TALK
+                <a className="cl no-underline" href="/contact">LET'S TALK</a>
               </p>
 
               <h1
