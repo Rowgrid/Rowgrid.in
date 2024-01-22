@@ -45,10 +45,10 @@ export const footerLinks = [
         name: "Static Websites",
         link: "https://www.hoobank.com/become-a-partner/",
       },
-      // {
-      //   name: "Resposive Design",
-      //   link: "https://www.hoobank.com/become-a-partner/",
-      // },
+      {
+        name: "Graphic Designig",
+        link: "https://www.hoobank.com/become-a-partner/",
+      },
       {
         name: "Hosting ",
         link: "https://www.hoobank.com/become-a-partner/",

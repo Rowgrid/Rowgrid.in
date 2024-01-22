@@ -55,11 +55,19 @@ const Home = () => {
               alt=""
             />
           </div>
+       <div className="fixed bottom-[30px]  right-[30px]  cursor-pointer">
+        <a href="https://wa.me/9645284458">
+          <img  src="https://clipart.info/images/ccovers/1499955335whatsapp-icon-logo-png.png" width={40} alt="" />
+         
+        </a>
+       
+       </div>
           <Brand />
         </div>
         <About/>
         <Service/>
         <Project/>
+       
       </div>
      
     </>
